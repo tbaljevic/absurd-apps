@@ -1,0 +1,458 @@
+IT'S SHOWTIME
+
+	HEY CHRISTMAS TREE inputTime
+	YOU SET US UP @NO PROBLEMO
+	GET YOUR ASS TO MARS inputTime
+	DO IT NOW
+	I WANT TO ASK YOU A BUNCH OF QUESTIONS AND I WANT TO HAVE THEM ANSWERED IMMEDIATELY
+
+	HEY CHRISTMAS TREE hoursInt
+	YOU SET US UP 0
+	GET YOUR ASS TO MARS hoursInt
+	DO IT NOW getHoursInt inputTime
+
+	HEY CHRISTMAS TREE minutesInt
+	YOU SET US UP 0
+	GET YOUR ASS TO MARS minutesInt
+	DO IT NOW getMinutesInt inputTime hoursInt
+
+	DO IT NOW printTime hoursInt minutesInt
+
+YOU HAVE BEEN TERMINATED
+
+
+
+
+LISTEN TO ME VERY CAREFULLY getHoursInt
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE inputTime
+	GIVE THESE PEOPLE AIR
+
+	HEY CHRISTMAS TREE hours
+	YOU SET US UP 0
+
+	HEY CHRISTMAS TREE divisor
+	YOU SET US UP 100
+
+	GET TO THE CHOPPER hours
+	HERE IS MY INVITATION inputTime
+	HE HAD TO SPLIT divisor
+	ENOUGH TALK
+
+	I'LL BE BACK hours
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY getMinutesInt
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE inputTime
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE hours
+	GIVE THESE PEOPLE AIR
+
+	HEY CHRISTMAS TREE minutes
+	YOU SET US UP 0
+
+	HEY CHRISTMAS TREE multiplier
+	YOU SET US UP 100
+
+	HEY CHRISTMAS TREE hourRemoval
+	YOU SET US UP 0
+
+	GET TO THE CHOPPER hourRemoval
+	HERE IS MY INVITATION hours
+	YOU'RE FIRED multiplier
+	ENOUGH TALK
+
+	GET TO THE CHOPPER minutes
+	HERE IS MY INVITATION inputTime
+	GET DOWN hourRemoval
+	ENOUGH TALK
+
+	I'LL BE BACK minutes
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY isLessThanTwelve
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE number
+	GIVE THESE PEOPLE AIR
+
+	HEY CHRISTMAS TREE isLessThanTwelve
+	YOU SET US UP @I LIED
+
+	GET TO THE CHOPPER isLessThanTwelve
+	HERE IS MY INVITATION 12
+	LET OFF SOME STEAM BENNET number
+	ENOUGH TALK
+
+	I'LL BE BACK isLessThanTwelve
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY printTime
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE hoursInt
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE minutesInt
+
+	HEY CHRISTMAS TREE isAM
+	YOU SET US UP @I LIED
+
+	GET YOUR ASS TO MARS isAM
+	DO IT NOW isLessThanTwelve hoursInt
+
+	TALK TO THE HAND "It's"
+
+	DO IT NOW printUpToTwelve hoursInt @I LIED
+
+	DO IT NOW printMinutes minutesInt
+
+	DO IT NOW printMeridiemRelation isAM
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY printUpToTwelve
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE hoursInt
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE zeroMeansZero
+
+	HEY CHRISTMAS TREE matches
+	YOU SET US UP @I LIED
+
+	GET YOUR ASS TO MARS matches
+	DO IT NOW equalsOneOf hoursInt 1 13
+	BECAUSE I'M GOING TO SAY PLEASE matches
+		TALK TO THE HAND "One"
+	YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW equalsOneOf hoursInt 2 14
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Two"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW equalsOneOf hoursInt 3 15
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Three"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW equalsOneOf hoursInt 4 16
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Four"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW equalsOneOf hoursInt 5 17
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Five"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW equalsOneOf hoursInt 6 18
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Six"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW equalsOneOf hoursInt 7 19
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Seven"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW equalsOneOf hoursInt 8 20
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Eight"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW equalsOneOf hoursInt 9 21
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Nine"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW equalsOneOf hoursInt 10 22
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Ten"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW equalsOneOf hoursInt 11 23
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Eleven"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+	BECAUSE I'M GOING TO SAY PLEASE zeroMeansZero
+	BULLSHIT
+	        GET YOUR ASS TO MARS matches
+	        DO IT NOW equalsOneOf hoursInt 0 12
+	        BECAUSE I'M GOING TO SAY PLEASE matches
+	                TALK TO THE HAND "Twelve"
+	        YOU HAVE NO RESPECT FOR LOGIC
+	YOU HAVE NO RESPECT FOR LOGIC
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY equalsOneOf
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE int
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE compareInt1
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE compareInt2
+	GIVE THESE PEOPLE AIR
+
+	HEY CHRISTMAS TREE equalsOneOf
+	YOU SET US UP @I LIED
+
+	GET YOUR ASS TO MARS equalsOneOf
+	DO IT NOW intEquals int compareInt1
+	BECAUSE I'M GOING TO SAY PLEASE equalsOneOf
+	BULLSHIT
+		GET YOUR ASS TO MARS equalsOneOf
+		DO IT NOW intEquals int compareInt2
+	YOU HAVE NO RESPECT FOR LOGIC
+
+	I'LL BE BACK equalsOneOf
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY intEquals
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE int1
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE int2
+	GIVE THESE PEOPLE AIR
+
+	HEY CHRISTMAS TREE areEqual
+	YOU SET US UP @I LIED
+
+	GET TO THE CHOPPER areEqual
+	HERE IS MY INVITATION int1
+	YOU ARE NOT YOU YOU ARE ME int2
+	ENOUGH TALK
+
+	I'LL BE BACK areEqual
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY removeLastDigit
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE number
+	GIVE THESE PEOPLE AIR
+
+	HEY CHRISTMAS TREE firstDigits
+	YOU SET US UP 0
+
+	GET TO THE CHOPPER firstDigits
+	HERE IS MY INVITATION number
+	HE HAD TO SPLIT 10
+	ENOUGH TALK
+
+	I'LL BE BACK firstDigits
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY isTeenNumber
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE number
+	GIVE THESE PEOPLE AIR
+
+	HEY CHRISTMAS TREE isTeen
+	YOU SET US UP @I LIED
+
+	HEY CHRISTMAS TREE firstDigit
+	YOU SET US UP 0
+
+	GET YOUR ASS TO MARS firstDigit
+	DO IT NOW removeLastDigit number
+
+	GET YOUR ASS TO MARS isTeen
+	DO IT NOW intEquals firstDigit 1
+
+	I'LL BE BACK isTeen
+
+HASTA LA VISTA, BABY
+	
+
+LISTEN TO ME VERY CAREFULLY getLastDigit
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE totalInt
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE leadingInt
+	GIVE THESE PEOPLE AIR
+
+	HEY CHRISTMAS TREE lastDigit
+	YOU SET US UP 0
+
+	HEY CHRISTMAS TREE leadingIntFinal
+	YOU SET US UP 0
+
+	GET TO THE CHOPPER leadingIntFinal
+	HERE IS MY INVITATION leadingInt
+	YOU'RE FIRED 10
+	ENOUGH TALK
+
+	GET TO THE CHOPPER lastDigit
+	HERE IS MY INVITATION totalInt
+	GET DOWN leadingIntFinal
+	ENOUGH TALK
+
+	I'LL BE BACK lastDigit
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY printTeenMinutes
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE minutesInt
+
+	HEY CHRISTMAS TREE matches
+	YOU SET US UP @I LIED
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals minutesInt 10
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Ten"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals minutesInt 11
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Eleven"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals minutesInt 12
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Twelve"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals minutesInt 13
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Thirteen"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals minutesInt 14
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Forteen"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals minutesInt 15
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Fifteen"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals minutesInt 16
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Sixteen"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals minutesInt 17
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Seventeen"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals minutesInt 18
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Eighteen"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals minutesInt 19
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Nineteen"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY printTensDigit
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE tensDigit
+
+	HEY CHRISTMAS TREE matches
+	YOU SET US UP @I LIED
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals tensDigit 0
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Oh"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals tensDigit 2
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Twenty"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals tensDigit 3
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Thirty"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals tensDigit 4
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Forty"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+        GET YOUR ASS TO MARS matches
+        DO IT NOW intEquals tensDigit 5
+        BECAUSE I'M GOING TO SAY PLEASE matches
+                TALK TO THE HAND "Fifty"
+        YOU HAVE NO RESPECT FOR LOGIC
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY printMinutesFromParts
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE firstDigit
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE lastDigit
+
+	DO IT NOW printTensDigit firstDigit
+	DO IT NOW printUpToTwelve lastDigit @NO PROBLEMO
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY printMinutes
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE minutesInt
+
+	HEY CHRISTMAS TREE firstDigit
+	YOU SET US UP 0
+
+	HEY CHRISTMAS TREE lastDigit
+	YOU SET US UP 0
+
+	HEY CHRISTMAS TREE isTeen
+	YOU SET US UP @I LIED
+
+	GET YOUR ASS TO MARS isTeen
+	DO IT NOW isTeenNumber minutesInt 
+
+	GET YOUR ASS TO MARS firstDigit
+	DO IT NOW removeLastDigit minutesInt
+
+	GET YOUR ASS TO MARS lastDigit
+	DO IT NOW getLastDigit minutesInt firstDigit
+
+	BECAUSE I'M GOING TO SAY PLEASE isTeen
+		DO IT NOW printTeenMinutes minutesInt
+	BULLSHIT
+		DO IT NOW printMinutesFromParts firstDigit lastDigit
+	YOU HAVE NO RESPECT FOR LOGIC
+
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY printMeridiemRelation
+	I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE isAM
+
+	BECAUSE I'M GOING TO SAY PLEASE isAM
+		TALK TO THE HAND "AM"
+	BULLSHIT
+		TALK TO THE HAND "PM"
+	YOU HAVE NO RESPECT FOR LOGIC
+
+HASTA LA VISTA, BABY

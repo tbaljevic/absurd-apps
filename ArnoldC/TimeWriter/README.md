@@ -26,3 +26,13 @@ Sample Output data
 
 ## Programming Language
 ArnoldC (https://lhartikk.github.io/ArnoldC/)
+
+## Language Constraints
+As ArnoldC can only store and manipulate boolean and integer variables, the input format can only be a three- or four-digit integer:
+- 0000
+- 130
+- 1205
+- 1401
+- 2029
+- 2100
+Additionally, there is no way to print to the console without a new line, so the output is spread; one word per line.
